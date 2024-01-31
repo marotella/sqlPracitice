@@ -14,3 +14,11 @@ VALUES ('Michelle', 34, 64, 'Jersey City', 'Black'), ('Jen', 33, 69, 'Nashville'
 SELECT * FROM person ORDER BY height DESC;
 
 SELECT * FROM person ORDER BY height ASC;
+
+SELECT * FROM person ORDER BY age  DESC;
+
+SELECT * FROM person WHERE age > 20;
+
+SELECT * FROM person WHERE age = 18;
+
+SELECT * FROM person WHERE age < 20 AND age >30;
